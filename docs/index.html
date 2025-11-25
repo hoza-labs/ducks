@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="ducks.css"/>
+    <title>
+      Mallard Ducks as Pets
+    </title>
+  </head>
+
+  <body onkeydown = "KeyPushed();" bgcolor = "lightcyan" background = "pictures/lightweirdbubblythings.jpg">
+    <div id="TitleDiv" class="titletext">
+      Mallard Ducks As Pets
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <div style = "width:100%" align="center">
+      <a href = "pictures/index.html">
+        <img width = "500px" height = "380px" src = "pictures/duck1.jpg" alt = "My ducks" id = "Ducks"/>
+      </a>
+    </div>
+
+    <script type="text/javascript">
+      var Pics = {};
+      var Pic = 0;
+      var Should = "false";
+      var KeysTyped = ""
+      var KEYB = 66
+      var KEYU = 85
+      var KEYA = 65
+
+      function KeyPushed()
+      {
+        switch(KeysTyped)
+        {
+          case "":
+            if (event.keyCode == KEYB)
+            {
+              KeysTyped = KeysTyped + "b";
+            }
+            else
+            {
+              KeysTyped = "";
+            }
+            break;
+          case "b":
+            if (event.keyCode == KEYU)
+            {
+              KeysTyped = KeysTyped + "u";
+            }
+            else
+            {
+              KeysTyped = "";
+            }
+            break;
+          case "bu":
+            if (event.keyCode == KEYB)
+            {
+              KeysTyped = KeysTyped + "b";
+            }
+            else
+            {
+              KeysTyped = "";
+            }
+            break;
+          case "bub":
+            if (event.keyCode == KEYB)
+            {
+              KeysTyped = KeysTyped + "b";
+            }
+            else
+            {
+              KeysTyped = "";
+            }
+            break;
+          case "bubb":
+            if (event.keyCode == KEYA)
+            {
+              window.open("http://whoza.home.comcast.net");
+            }
+            KeysTyped = ""
+            break;
+        }
+      }
+
+      //AddPics();
+
+      function AddPics()
+      {
+        var i = 0;
+
+        for( i=1; i<=8; i++ )
+        {
+          Pics[i] = new Image();
+          Pics[i].src = "pictures/duck" + i + ".jpg";
+        }
+
+        Ducks.src = Pics[1].src;
+        Pic = 1;
+      }
+
+      function Clicked()
+      {
+        {
+          Pic = Pic + 1;
+          if(Pic > 8)
+          {
+            Pic = 1;
+          }
+  
+          Ducks.src = Pics[Pic].src;
+        }
+      }
+
+      function GoBack()
+      {
+        Pic = Pic - 1;
+        Ducks.src = Pics[Pic].src;
+      }
+    </script> 
+
+    <br />  
+    <br />
+    <br />
+
+    <div class="considtext">
+      Considering a pet mallard? Here is some helpful info to see if ducks are right for you, and, if you've already decided, it will help you to make sure your ducks get the proper care.
+    </div>
+ 
+    <br />
+    <br />
+
+    <div class="subtitletext">
+      Duckling Care
+    </div>
+
+    <br />
+
+    <div class="regtextindent">
+      If you are going to get ducks, it is best to acquire them when they are still ducklings. You should never attempt to raise only one duckling, as ducks are social birds. Mallards have a natural fear of humans, so you should plan on spending a sizable amount of time with them every day allowing them to get used to you. I didn't get my ducks until they were one week old, and they never have lost all of their fear, so they won't let me pet them. They will, however, peck at my hands and legs when they want a treat, and when they are in unfamiliar surroundings or frightened they follow me around as if I were their mother. A duck's peck doesn't hurt the way a chicken's does - it's more of a tickling sensation.
+    </div>
+
+    <div class="regtextindent">
+      Ducklings need to be kept in an indoor cage with a padding of grass or a similar material with an artificial heat source if they are without their mother. After the first week you can gradually reduce the heating until they are at room temperature. If your ducklings crowd around the heat source this means they are too cold, and if they move away from the heat they are too warm. Comfortable ducklings will move around, eating and drinking. If the weather is warm, ducklings can move outdoors at around 2 or 3 weeks. Ducks will be fine in any weather, rain or shine, by 4 or 5 weeks. Ducklings being raised by their mother can remain outdoors without a heat source.
+    </div>
+
+    <div class="regtextindent">
+      Ducklings should be supplied with water, but not enough to walk or swim in unless they are with their mother. Ducklings cannot produce the oil that waterproofs their down until they are 3 or 4 weeks old, and the mother usually oils their feathers for them. If they are allowed to swim before this without their mother they may become chilled or even drown. 
+    </div>
+
+    <div class="regtextindent">
+      You should feed your ducklings a combination of fresh vegetable greens (weeds from a garden are enjoyed immensely) and gamebird starter feed. You should NOT feed your ducks chick starter, as they will very likely get
+      <a href = "http://www.wildcareoklahoma.org/education5.html" target = "_blank">
+        Angel wing.
+      </a>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="subtitletext">
+      Duck Care
+    </div>
+
+    <br />
+
+    <div class="regtextindent">
+      Ducks are portrayed by most websites as great pets that are very easy to care for. This is not true. I believe that ducks make excellent pets, but only if you have the time and commitment to keep them healthy and happy. If your backyard includes a predator-free pond, then your ducks really will require very little effort, but the rest of us should look forward to quite a lot of work.
+    </div>
+
+    <br />
+    <br />
+
+    <span class="subsubtitletext">
+      Caging
+    </span>
+
+    <br />
+    <br />
+
+    <div class="regtextindent">
+      Cages will vary greatly in size and shape depending on the space and resources available. You should plan on a minimum of 10 sq. ft. per duck with a minimum total of 25 sq. ft. Ducks will eat all but a few of the plants you place in their cages, but here are some hardy enough that your ducks will not be able to eradicate: ground ivy (glechoma hederacea), silverweed (potentilla anserine), chamomile species (matricaria), and large leafed butterbur (petasites).
+    </div>
+  
+    <br />
+    <br />
+
+    <span class="subsubtitletext">
+      Shelter
+    </span>
+
+    <br />
+    <br />
+
+    <div class="regtextindent">
+      Mallard ducks can survive through temperatures well below zero as long as they are supplied with liquid water, but they should always be supplied with a shelter to keep them out of the sun, rain, snow, and hail. Such a shelter can be easily constructed by propping a piece of plywood up on two logs to form a lean-to.
+    </div>
+
+    <br />
+    <br />
+
+    <span class="subsubtitletext">
+      Food and Water
+    </span>
+
+    <br />
+    <br />
+
+    <div class="regtextindent">
+      Once ducks reach the age of 5 weeks or so they should be taken off the gamebird starter and fed gamebird grower instead. You can use an ordinary kitchen bowl, a medium-sized bucket, or a specially made duck feeder. These are available at most feed stores. Water should be in a dish large enough to hold a sizeable amount of water but small enough to carry easily in and out of your duck's pen. Ducks are rather prone to tipping their water dishes, but I've found that if you dig a hole with the same dimensions of your dish and place it inside the hole this helps immensely. Ducks also tend to get their water very muddy, so plan on washing their dish quite often.
+    </div>
+
+    <br />
+    <br />
+
+    <span class="subsubtitletext">
+      Ponds
+    </span>
+
+    <br />
+    <br />
+
+    <div class="regtextindent">
+      If you already have a pond in your yard, then that is great. If you really want to, you can build a pond, but artificial ponds get dirty quickly and are difficult to clean. Ducks can be kept without a place to swim, but if you really want to keep your birds happy you must provide them with a place to swim. The easiest way to do this is to purchase a child's plastic wading pool. These can be bought as cheaply as $10.
+    </div>
+
+    <br />
+    <br />
+
+    <span class="subsubtitletext">
+      General Care
+    </span>
+
+    <br />
+    <br />
+
+    <div class="regtextindent">
+      As well as providing for your duck's basic needs there are a few things you will need to do to keep your ducks healthy and happy. First, you should take your ducks out of their pen every day. During this time they can fly, swim, and forage for plants and bugs. If there are any predators large enough to attack a duck around then you should watch the ducks while they are out. Next, you should clean their cage every few days. If you do not do this then the pen will start to stink up your whole yard. Finally, if their cage floor is made of packed dirt you should be sure to loosen it occasionally. If the floor is too hard your ducks may develop sores on their feet.
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    
+    <div class="subtitletext">
+      Good Luck!
+    </div>
+
+    <br />
+
+<table style = "width: 100%;">
+	<tr>
+		<td>
+
+    <script type="text/javascript" language="javascript">
+      var sc_project=372112; 
+      var sc_partition=1; 
+    </script>
+    
+    <script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js">
+    </script>
+    <noscript>
+      <a href="http://www.statcounter.com/" target = "_blank">
+        <img src="http://c2.statcounter.com/counter.php?sc_project=372112&amp;java=0" border="0" alt="StatCounter"/>
+      </a> 
+    </noscript>
+
+    <br />
+
+    <a href = "faq/index.html">
+      FAQ
+    </a>
+
+    <br />
+
+    <a href = "pictures/index.html">
+      Pictures of ducks
+    </a>
+
+    <br />
+
+    <a href = "poem/index.html">
+      Ode to Ducks
+    </a>
+
+    <br />
+
+    <a href = "mailto:petducks@gmail.com" target = "_blank" style="text-decoration:none">
+      <u>Questions or comments?</u>
+      <br />
+      <span style="margin-left:30px">
+        <u>E-mail me at petducks@gmail.com.</u>
+      </span>
+      <br />
+    </a>
+
+    <a href = "links/index.html">
+      Links
+    </a>
+
+    <br />
+
+    <div style="margin-bottom:4px;">
+      <a href = "movie/mayhem.webm">
+        A video of my ducks
+      </a>
+    </div>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but21.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+</form>
+
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      _uacct = "UA-336766-1";
+      urchinTracker();
+    </script>
+
+		</td>
+		<td align = "right">
+			<a href = "http://www.budgethappy.org/?utm_source=ducksite&utm_medium=banner&utm_campaign=slogan" target = "_blank">
+				<img src = "http://www.budgethappy.org/graphics/ads/ducksite/budgethappy.png" border = "0">
+			</a>
+			<script type = "text/javascript" src = "http://www.craterfish.org/ads/tank.js">
+			</script>
+		</td>
+	</tr>
+</table>
+  </body>
+</html>

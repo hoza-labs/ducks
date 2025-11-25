@@ -1,0 +1,101 @@
+A
+{ 
+  color: #00008B 
+}
+A:hover
+{
+  font-weight: bold;
+}
+A:visited
+{
+  color: #006400
+}
+
+Body
+{
+  scrollbar-base-color:#AAEEAA;
+  background-attachment:fixed;
+}
+
+.titletext,.duckpictext,.subtitletext,.subsubtitletext,.duckpersoncap,.considtext,.faqQtext
+{
+  font-family: "Comic Sans MS","Arial","Times New Roman","Bitstream Charter","serif","Courier";
+}
+
+.regtext,.regtextindent,.captiontext
+{
+  font-family: "Times New Roman","Arial","Bitstream Charter","serif","Courier";
+}
+
+.titletext,.duckpictext,.subtitletext,.subsubtitletext,.duckpersoncap,.considtext,.faqQtext
+{
+  color:green;
+}
+
+.titletext
+{
+  font-size: 60px;
+  background-color:transparent;
+  text-align: center;
+}
+.duckpictext
+{
+  font-size: 40px;
+  background-color:transparent;
+  text-align: center;
+}
+.subtitletext
+{
+  font-size: 32px;
+  background-color:transparent;
+  text-align: center;
+  font-weight: bold;
+}
+.subsubtitletext
+{
+  background-color:transparent;
+  font-size: 24px;
+  font-weight: bold;
+}
+.duckpersoncap
+{
+  background-color:transparent;
+  font-size: 20px;
+  font-weight: bold;
+}
+.regtext
+{
+  color: #00008B;
+  background-color:transparent;
+  font-size: 20px;
+}
+.regtextindent
+{
+  color: #00008B;
+  background-color:transparent;
+  font-size: 20px;
+}
+.regtextindent:first-letter
+{
+  margin-left: 45px;
+}
+.considtext
+{
+  font-size: 16.5pt;
+  background-color:transparent;
+  text-align: center;
+  font-weight: bold;
+}
+.faqQtext
+{
+  font-size: 27px;
+  background-color:transparent;
+  text-align: left;
+}
+.captiontext
+{
+  color: #00008B;
+  background-color:transparent;
+  font-size: 15px;
+  text-align: center;
+}
