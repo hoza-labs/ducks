@@ -16,3 +16,5 @@ NOTE: All Contributions you make become the property of the project copyright ow
 
 [start a discussion]: https://github.com/hoza-labs/ducks/issues
 [submit a proposed change]: https://github.com/hoza-labs/ducks/pulls
+
+[CONTRIBUTING.md]: ./CONTRIBUTING.md
